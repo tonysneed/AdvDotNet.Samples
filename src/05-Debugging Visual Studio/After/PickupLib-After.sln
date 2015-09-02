@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38B10CF2-8930-4D77-BD4A-8DDA2523408E}"
+	ProjectSection(SolutionItems) = preProject
+		..\ReadMe.txt = ..\ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{021386D9-5E0A-4A26-9DC8-04D29B6A577B}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\PickupLib.dll = Lib\PickupLib.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Symbols", "Symbols", "{819BFA39-F6E6-46C9-BF9F-78E3608AD195}"
+	ProjectSection(SolutionItems) = preProject
+		Symbols\PickupLib.pdb = Symbols\PickupLib.pdb
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickupLib", "PickupLib\PickupLib.csproj", "{4FF55372-1DF9-4F78-BFFA-0486B9833E73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FF55372-1DF9-4F78-BFFA-0486B9833E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF55372-1DF9-4F78-BFFA-0486B9833E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF55372-1DF9-4F78-BFFA-0486B9833E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF55372-1DF9-4F78-BFFA-0486B9833E73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
